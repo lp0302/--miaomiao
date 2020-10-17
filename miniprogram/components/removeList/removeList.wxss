@@ -1,0 +1,42 @@
+/* components/removeList/removeList.wxss */
+.movable-area{
+  width: 100%;
+  height:100rpx;
+  margin:20rpx;
+  position:relative;
+  top:0;
+  border-bottom: 1px #b4b5b6 dashed;
+}
+.movable-view {
+  width:86%;
+  height: 100%;
+  position: absolute;
+  left:100rpx;
+  top:0;
+  background: #fff;
+  line-height: 100rpx;
+  text-indent: 10rpx;
+  z-index:2
+}
+image{
+  width: 100rpx;
+  height:100rpx;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  left:0;
+  top:0;
+  z-index:1
+}
+.delete{
+  width:110rpx;
+  height:100rpx;
+  background: red;
+  color:#fff;
+  position: absolute;
+  right:0;
+  top:0;
+  z-index:1;
+  text-align:center;
+  line-height: 100rpx;
+}
